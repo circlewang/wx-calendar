@@ -1,4 +1,4 @@
-.mpvue-calendar {
+.wx-calendar {
   margin:auto;
   width: 100%;
   min-width:300rpx;
@@ -76,14 +76,14 @@
   float:right;
   text-align: center;
 }
-.mpvue-calendar table {
+.wx-calendar table {
   clear: both;
   width: 100%;
   margin-bottom:10px;
   border-collapse: collapse;
   color: #444444;
 }
-.mpvue-calendar td {
+.wx-calendar td {
   margin:2px !important;
   padding:0px 0;
   width: 14.28571429%;
@@ -96,18 +96,18 @@
   position: relative;
   vertical-align: top;
 }
-.mpvue-calendar td.mc-week{
+.wx-calendar td.mc-week{
   font-size:10px;
   pointer-events:none !important;
   cursor: default !important;
 }
-.mpvue-calendar td.disabled {
+.wx-calendar td.disabled {
   color: #ccc;
 }
-.mpvue-calendar td.disabled div{
+.wx-calendar td.disabled div{
   color: #ccc;
 }
-.mpvue-calendar td span{
+.wx-calendar td span{
   display:block;
   height:76rpx;
   width:76rpx;
@@ -117,18 +117,18 @@
   position: relative;
   z-index: 3;
 }
-.mpvue-calendar td:not(.disabled) span.mc-date-red{
+.wx-calendar td:not(.disabled) span.mc-date-red{
   color:#ea6151;
 }
 .mc-today{
   color: #3b75fb;
 }
-.mpvue-calendar td.selected span{
+.wx-calendar td.selected span{
   background-color: #3b75fb;
   color: #fff;
   border-radius:50%;
 }
-.mpvue-calendar td .mc-text{
+.wx-calendar td .mc-text{
   position: absolute;
   top:28px;
   left:0;
@@ -140,27 +140,27 @@
   color:#444;
   z-index: 4;
 }
-.mpvue-calendar td .isGregorianFestival,
-.mpvue-calendar td .isTerm,
-.mpvue-calendar td .isLunarFestival{
+.wx-calendar td .isGregorianFestival,
+.wx-calendar td .isTerm,
+.wx-calendar td .isLunarFestival{
   color:#ea6151;
 }
-.mpvue-calendar td.selected span.mc-date-red{
+.wx-calendar td.selected span.mc-date-red{
   background-color: #3b75fb;
   color: #fff;
 }
 .selected .mc-text {
   color: #fff !important;
 }
-.mpvue-calendar .lunarStyle span{
+.wx-calendar .lunarStyle span{
   width: 80rpx;
   height: 80rpx;
   line-height:54rpx;
 }
-.mpvue-calendar .lunarStyle .mc-text{
+.wx-calendar .lunarStyle .mc-text{
   top: 44rpx;
 }
-.mpvue-calendar thead td {
+.wx-calendar thead td {
   text-transform: uppercase;
   height:30px;
   vertical-align: middle;
@@ -217,7 +217,7 @@
   position: absolute;
   z-index: 5;
 }
-.mpvue-calendar-change{
+.wx-calendar-change{
   position: absolute;
   left:0rpx;
   top:85rpx;
@@ -235,12 +235,12 @@
   transform: translateY(-10px);
   z-index: 9;
 }
-.mpvue-calendar-change.show{
+.wx-calendar-change.show{
   opacity: 1;
   pointer-events: auto;
   transform: translateY(0px);
 }
-.mpvue-calendar-change span{
+.wx-calendar-change span{
   margin:4px 2%;
   display: inline-block;
   line-height: 30px;
@@ -254,16 +254,16 @@
   box-sizing: border-box;
   margin-bottom: 4%;
 }
-.mpvue-calendar-change span.active{
+.wx-calendar-change span.active{
   background-color: #587dff;
   box-shadow: 2px 2px 2px rgba(88, 125, 255, 0.7);
   color:#fff;
 }
-.mpvue-calendar-change .calendar-week-switch-months{
+.wx-calendar-change .calendar-week-switch-months{
   height: 100%;
   padding: 10rpx 20rpx;
 }
-.mpvue-calendar-change .calendar-week-switch-months span {
+.wx-calendar-change .calendar-week-switch-months span {
   margin-bottom: 20rpx;
   margin-top: 0px;
   font-size: 26rpx;
@@ -297,14 +297,14 @@
   top: 0rpx;
   left: 50%;
 }
-.mpvue-calendar .mc-range-mode .selected .calendar-date{
+.wx-calendar .mc-range-mode .selected .calendar-date{
   background-color: transparent;
 }
-.mpvue-calendar .mc-range-mode .mc-range-row-last span.calendar-date, .mpvue-calendar .mc-range-mode .mc-range-row-first span.calendar-date{
+.wx-calendar .mc-range-mode .mc-range-row-last span.calendar-date, .wx-calendar .mc-range-mode .mc-range-row-first span.calendar-date{
   border-radius: 6rpx;
   background-color: #01a1ed;
 }
-.mpvue-calendar .mc-range-mode .mc-range-month-first.selected .calendar-date, .mpvue-calendar .mc-range-mode .mc-range-month-last.selected .calendar-date{
+.wx-calendar .mc-range-mode .mc-range-month-first.selected .calendar-date, .wx-calendar .mc-range-mode .mc-range-month-last.selected .calendar-date{
   border-radius: 6rpx;
   background-color: #01a1ed;
 }
@@ -315,7 +315,7 @@
 .mc-range-mode .mc-range-end .mc-range-bg, .mc-range-mode .mc-range-row-last .mc-range-bg{
   display: none;
 }
-.mpvue-calendar .mc-range-mode .mc-range-end span.calendar-date, .mpvue-calendar .mc-range-mode .mc-range-begin span.calendar-date{
+.wx-calendar .mc-range-mode .mc-range-end span.calendar-date, .wx-calendar .mc-range-mode .mc-range-begin span.calendar-date{
   background-color: #3b75fb;
   color: #fff;
   border-radius: 50%;
@@ -326,7 +326,7 @@
   width: 40rpx;
   left: 5px;
 }
-.mpvue-calendar .mc-range-row-first.mc-range-end.month-first-date .mc-range-bg{
+.wx-calendar .mc-range-row-first.mc-range-end.month-first-date .mc-range-bg{
   margin-left: 0px;
 }
 .mc-range-mode .mc-range-row-last.mc-range-begin .mc-range-bg{
@@ -335,18 +335,18 @@
   width: 40rpx;
   right: 10px;
 }
-.mpvue-calendar .mc-range-mode .month-last-date.mc-range-begin .mc-range-bg{
+.wx-calendar .mc-range-mode .month-last-date.mc-range-begin .mc-range-bg{
   display: block;
   width: 40rpx;
   border-radius: 6rpx;
 }
-.mpvue-calendar .mc-range-mode .month-first-date.mc-range-end .mc-range-bg{
+.wx-calendar .mc-range-mode .month-first-date.mc-range-end .mc-range-bg{
   display: block;
   width: 40rpx;
   border-radius: 6rpx;
   left: 10rpx;
 }
-.mpvue-calendar .mc-range-mode .mc-range-select-one div.mc-range-bg{
+.wx-calendar .mc-range-mode .mc-range-select-one div.mc-range-bg{
   display: none !important;
 }
 .mc-body .mc-today-element .calendar-date{
@@ -354,20 +354,20 @@
   border-radius: 6rpx;
 }
 /*week switch*/
-.mpvue-calendar .mc-range-mode.week-switch .month-last-date.mc-range-begin .mc-range-bg{
+.wx-calendar .mc-range-mode.week-switch .month-last-date.mc-range-begin .mc-range-bg{
   width: 130%;
   border-radius: 0px 20% 20% 0px;
 }
-.mpvue-calendar .mc-range-mode.week-switch .mc-range-month-last .mc-range-bg{
+.wx-calendar .mc-range-mode.week-switch .mc-range-month-last .mc-range-bg{
   background-color: #01a1ed;
   border-radius: 0px 20% 20% 0px;
 }
 /*month range*/
-.mpvue-calendar .month-range-mode{
+.wx-calendar .month-range-mode{
   border-bottom: 1px solid #f2f2f2;
   position: relative;
 }
-.mpvue-calendar .mc-month-range-mode-head{
+.wx-calendar .mc-month-range-mode-head{
   box-shadow: 0 4px 8px rgba(25,47,89,.1);
   padding: 15rpx 0rpx;
   position: sticky;

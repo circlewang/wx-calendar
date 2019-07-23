@@ -8,7 +8,7 @@
 
 export default {
   data () {
-    title: 'mpvue-calendar'
+    title: 'wx-calendar'
   }
 }
 </script>

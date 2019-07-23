@@ -1,17 +1,16 @@
 {
-  "name": "mpvue-calendar",
-  "version": "2.2.2",
-  "description": "calendar mpvue-calendar vue-calendar",
-  "main": "./src/mpvue-calendar.vue",
+  "name": "circle-calendar",
+  "version": "2.2.4",
+  "description": "calendar wx-calendar vue-calendar",
+  "main": "./src/wx-calendar.vue",
   "scripts": {
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
     "start": "npm run dev",
-    "build": "node build/build.js",
-    "publish": "npm publish"
+    "build": "node build/build.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Hzy0913/mpvue-calendar.git"
+    "url": "git+ssh://git@github.com/circlewang/wx-calendar.git"
   },
   "keywords": [
     "mpvue",
@@ -20,12 +19,12 @@
     "小程序",
     "日历组件"
   ],
-  "author": "hzy",
+  "author": "circle",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Hzy0913/mpvue-calendar/issues"
+    "url": "https://github.com/circlewang/wx-calendar/issues"
   },
-  "homepage": "https://github.com/Hzy0913/mpvue-calendar#readme",
+  "homepage": "https://github.com/circlewang/wx-calendar#readme",
   "devDependencies": {
     "autoprefixer": "^7.1.2",
     "babel-core": "^6.22.1",
@@ -84,5 +83,9 @@
     "> 1%",
     "last 2 versions",
     "not ie <= 8"
-  ]
+  ],
+  "directories": {
+    "example": "example"
+  },
+  "dependencies": {}
 }

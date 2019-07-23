@@ -65,7 +65,7 @@ body{
   border-radius: 3px;
   display: inline-block;
 }
-.mpvue-calendar td{
+.wx-calendar td{
   padding: 4px;
   box-sizing: border-box;
 }
@@ -172,7 +172,7 @@ body{
   color: #fff !important;
 }
 @media screen and (max-width: 420px) {
-  .mpvue-calendar .lunarStyle span{
+  .wx-calendar .lunarStyle span{
     line-height: 1.9 !important;
   }
   .box-mode .data-info{
@@ -191,11 +191,11 @@ body{
   }
 }
 @media screen and (max-width: 320px) {
-  .mpvue-calendar .lunarStyle span{
+  .wx-calendar .lunarStyle span{
     line-height: 1.4 !important;
     font-size: 13px;
   }
-  .mpvue-calendar .lunarStyle .mc-text{
+  .wx-calendar .lunarStyle .mc-text{
     font-size: 12px !important;
   }
 }

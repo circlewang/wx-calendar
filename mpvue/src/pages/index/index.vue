@@ -26,7 +26,7 @@
 </template>
 
 <script>
-  import Calendar from '../../components/mpvue-calendar'
+  import Calendar from '../../components/wx-calendar'
   import '../../components/style.css';
 
   export default {

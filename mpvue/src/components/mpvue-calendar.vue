@@ -1,5 +1,5 @@
 <template>
-  <div class="mpvue-calendar" ref="calendar">
+  <div class="wx-calendar" ref="calendar">
     <div class="calendar-tools" v-if="!isMonthRange">
       <div class="calendar-prev" @click="prev">
         <img :src="arrowLeft" v-if="!!arrowLeft">
@@ -64,7 +64,7 @@
         </tr>
       </div>
     </table>
-    <div class="mpvue-calendar-change" :class="{'show': yearsShow}">
+    <div class="wx-calendar-change" :class="{'show': yearsShow}">
       <div class="calendar-years" v-if="!weekSwitch">
         <span v-for="y in years" :key="y" @click.stop="selectYear(y)" :class="{'active': y === year}">{{y}}</span>
       </div>

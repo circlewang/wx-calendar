@@ -61,7 +61,7 @@ let baseWebpackConfig = {
       },
       {
         test: /\.js$/,
-        include: [resolve('src'), resolve('node_modules/mpvue-calendar'), resolve('test')],
+        include: [resolve('src'), resolve('node_modules/wx-calendar'), resolve('test')],
         use: [
           'babel-loader',
           {

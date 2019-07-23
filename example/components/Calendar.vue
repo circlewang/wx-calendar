@@ -57,7 +57,7 @@
 </template>
 
 <script>
-  import Calendar from '../../src/mpvue-calendar'
+  import Calendar from '../../src/wx-calendar'
   import '../../src/browser-style.css'
   import {holiday} from './holiday'
   const year = new Date().getFullYear();
