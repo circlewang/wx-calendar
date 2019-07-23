@@ -1,5 +1,5 @@
 {
-  "name": "wx-calendar2",
+  "name": "mpvue-calendar2",
   "version": "1.0.0",
   "mpvueTemplateProjectVersion": "0.1.0",
   "description": "A Mpvue project",
@@ -26,7 +26,7 @@
   },
   "dependencies": {
     "mpvue": "^2.0.0",
-    "wx-calendar": "^2.1.1",
+    "mpvue-calendar": "^2.1.1",
     "vuex": "^3.1.0"
   },
   "devDependencies": {

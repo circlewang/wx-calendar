@@ -1,4 +1,4 @@
-# wx-calendar2
+# mpvue-calendar2
 
 > A Mpvue project
 
