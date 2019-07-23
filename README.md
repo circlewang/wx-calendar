@@ -4,6 +4,3 @@
 
 我的项目展示图
 
-
-      执行console.log（年）
-      console.log(year)
