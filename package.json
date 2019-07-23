@@ -1,12 +1,13 @@
 {
   "name": "circle-calendar",
-  "version": "2.2.6",
+  "version": "2.2.8",
   "description": "calendar mpvue-calendar vue-calendar",
   "main": "./src/mpvue-calendar.vue",
   "scripts": {
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
     "start": "npm run dev",
     "build": "node build/build.js",
+    "publish": "npm publish"
   },
   "repository": {
     "type": "git",
@@ -83,5 +84,8 @@
     "> 1%",
     "last 2 versions",
     "not ie <= 8"
-  ]
+  ],
+  "directories": {
+    "example": "example"
+  }
 }

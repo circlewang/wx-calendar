@@ -7,19 +7,13 @@
     position: relative;
 }
 .calendar-tools{
-    margin: 0 auto;
-	border-radius: 41rpx;
-	height: 80rpx;
-	width: 300rpx;
-	font-size: 32rpx;
-	line-height: 40px;
-	color: rgba(16,16,16,1);
-	border: 1px solid rgba(146,147,150,1);
-	margin-bottom: 30rpx;
-	-webkit-border-radius: 41rpx;
-	-moz-border-radius: 41rpx;
-	-ms-border-radius: 41rpx;
-	-o-border-radius: 41rpx;
+    height:40px;
+    font-size: 20px;
+    line-height: 40px;
+    color:#5e7a88;
+    box-shadow: 0px 4px 8px rgba(25, 47, 89, 0.1);
+    margin-bottom: 20px;
+    border-top: 1px solid rgba(200, 200, 200, .1);
 }
 .calendar-tools span{
     cursor: pointer;
@@ -30,63 +24,55 @@
     text-align: center;
 }
 .calendar-prev img, .calendar-next img{
-    width: 15rpx;
-    height: 26rpx;
+    width: 34px;
+    height: 34px;
 }
 .calendar-info{
-    position: relative;
-	top: -63rpx;
-	left: 50rpx;
-	padding-top: 3px;
-	font-size: 32rpx;
-	line-height: 1.3;
-	text-align: center;
-	width: 220rpx;
-	margin: 0 auto;
-	display: flex;
+    font-size:16px;
+    line-height: 1.3;
+    text-align: center;
+    width: 220px;
+    margin: 0 auto;
 }
 .calendar-info>div.mc-month{
-    margin: auto;
-	height: 40rpx;
-	width: 120rpx;
-	text-align: left;
-	color: rgba(16,16,16,1);
-	overflow: hidden;
-	position: relative;
-	font-size: 32rpx;
-	right: 80rpx;
-	top: -3rpx;
+    margin:auto;
+    height:24px;
+    width:100px;
+    text-align: center;
+    color:#5e7a88;
+    overflow: hidden;
+    position: relative;
 }
 .calendar-info>div.mc-month .mc-month-inner{
     position: absolute;
     left:0;
     top:0;
-    height:480rpx;
+    height:480px;
 }
 .month-transition{
     transition:top .5s cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 .calendar-info .mc-month-text{
     display:block;
-    font-size:31rpx;
-    height:40rpx;
-    width:200rpx;
+    font-size:28px;
+    height:40px;
+    width:200px;
     overflow:hidden;
     text-align:center;
 }
 .calendar-info>div.mc-month .mc-month-inner>span{
     display: block;
-    font-size: 32rpx;
-    height:20rpx;
+    font-size: 14px;
+    height:24px;
     line-height:24px;
     width:100px;
     overflow: hidden;
     text-align: center;
 }
 .calendar-info>div.mc-year{
-    font-size: 32rpx;
-	line-height: 1;
-	color: rgba(16,16,16,1);
+    font-size:10px;
+    line-height: 1;
+    color:#999;
 }
 .calendar-next{
     width: 14.28571429%;
@@ -102,8 +88,7 @@
 }
 .mpvue-calendar td {
     margin:2px !important;
-    padding: 0;
-    height: 88rpx;
+    padding: 4px;
     width: 14.28571429%;
     box-sizing: border-box;
     text-align: center;
@@ -125,15 +110,13 @@
     color: #ccc;
 }
 .mpvue-calendar td span{
-    display: block;
-	height: 70rpx;
-	width: 70rpx;
-	font-size: 28rpx;
-	color: #333;
-	line-height: 70rpx;
-	margin: 0px auto;
-	position: relative;
-	z-index: 3;
+    display:block;
+    height:100%;
+    width:100%;
+    margin:0px auto;
+    border-radius:50%;
+    position: relative;
+    z-index: 3;
 }
 .mpvue-calendar td:not(.disabled) span.mc-date-red{
     color:#ea6151;
@@ -209,17 +192,15 @@
     align-content: space-between;
 }
 .mc-dot {
-    width: 6rpx;
-	height: 6rpx;
-	background-color: rgba(50,87,129,1);
-	border-radius: 50%;
-	margin: 0 auto;
-	margin-top: 5rpx;
-	position: absolute;
-	left: 50%;
-	margin-left: -5rpx;
-	z-index: 5;
-    border: 1px solid rgba(31,88,133,0.3);
+    width: 8px;
+    height: 8px;
+    background-color: #ea6151;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -4px;
+    left: 50%;
+    margin-left: -4px;
+    z-index: 5;
 }
 .remark-text {
     box-sizing: border-box;
@@ -258,10 +239,6 @@
     pointer-events: none;
     transform: translateY(-10px);
     z-index: 9;
-    -webkit-transition:all .5s cubic-bezier(0.075, 0.82, 0.165, 1);
-    -moz-transition:all .5s cubic-bezier(0.075, 0.82, 0.165, 1);
-    -ms-transition:all .5s cubic-bezier(0.075, 0.82, 0.165, 1);
-    -o-transition:all .5s cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 .mpvue-calendar-change.show{
     opacity: 1;

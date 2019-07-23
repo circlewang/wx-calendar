@@ -10,6 +10,7 @@
         <i class="iconfont icon-arrow-right" v-else></i>
       </div>
       <div class="calendar-info" @click.stop="changeYear">
+        <div class="mc-year">{{year}}</div>
         <div class="mc-month">
           <div
             :class="['mc-month-inner', oversliding ? '' : 'month-transition']"
@@ -20,7 +21,7 @@
           </div>
           <div class="mc-month-text" v-else>{{monthText}}</div>
         </div>
-        <div class="mc-year">{{year}}</div>
+        
       </div>
     </div>
     <table cellpadding="5">
