@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Hzy0913/mpvue-calendar.git"
+    "url": "git+https://github.com/circlewang/wx-calendar"
   },
   "keywords": [
     "mpvue",
@@ -23,9 +23,8 @@
   "author": "hzy",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Hzy0913/mpvue-calendar/issues"
+    "url": "https://github.com/circlewang/wx-calendar/issues"
   },
-  "homepage": "https://github.com/Hzy0913/mpvue-calendar#readme",
   "devDependencies": {
     "autoprefixer": "^7.1.2",
     "babel-core": "^6.22.1",
