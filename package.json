@@ -1,6 +1,6 @@
 {
   "name": "circle-calendar",
-  "version": "2.2.8",
+  "version": "2.2.10",
   "description": "calendar mpvue-calendar vue-calendar",
   "main": "./src/mpvue-calendar.vue",
   "scripts": {
